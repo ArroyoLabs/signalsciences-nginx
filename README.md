@@ -1,14 +1,18 @@
 # signalsciences-nginx
 
-Docker support for Signal Sciences WAF integration with NGINX
+Docker support for Signal Sciences WAF integration with NGINX.  Find us on dockerhub at 
+https://hub.docker.com/r/arroyolabs/signalsciences-nginx
 
-https://www.signalsciences.com/
+Created by John Arroyo for [Arroyo Labs](https://www.arroyolabs.com/) for client projects.
 
-https://nginx.org/
+[Signal Sciences](https://www.signalsciences.com/), [Nginx](https://nginx.org/), [Arroyo Labs](https://www.arroyolabs.com/)
 
-Created by John Arroyo for Arroyo Labs for client projects.
+## Usage
 
-## Useage
+```
+docker pull arroyolabs/signalsciences-nginx
+```
+
 
 Volume map your or copy into to your child image your Signal Sciences agent config
 
