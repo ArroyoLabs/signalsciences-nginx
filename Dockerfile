@@ -28,9 +28,6 @@ RUN apt-get -y install sigsci-agent
 RUN apt-get install nginx-module-lua
 RUN apt-get install sigsci-module-nginx
 
-# Copying SigSci configuration file
-COPY agent.conf /etc/sigsci/agent.conf
-
 # Expose web ports
 EXPOSE 443 80
 
